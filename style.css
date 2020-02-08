@@ -1,0 +1,108 @@
+body {
+	font-family: 'Bebas Neue', cursive;
+	background-color: rgb(86 163 166); 
+	color: rgb(218 226 223);
+	font-size: 25px;
+	font-weight: 200; 
+	letter-spacing: 2px;
+}
+
+h1, h2 {
+	font-family: 'Questrial', sans-serif; 
+	color: rgb(86 163 166);
+
+}
+
+h1 {
+	font-weight: 100;
+	letter-spacing: 7px;
+	font-size: 40px; 
+	font-family: sans-serif;
+
+}
+
+h2 {
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 30px;
+
+}
+
+a {
+	text-decoration: none;
+	color: rgb(218 226 223);
+}
+
+a:hover {
+	color: yellow;
+}
+
+img {
+	width: 100%;
+	height: auto;
+
+}
+
+.container {
+	width: 700px; 
+	margin: 40px auto ; 
+}
+
+.card-grey {
+	background-color: rgb(60 60 60);
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1); 
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+
+border-radius: 50%
+}
+
+.btn-blue {
+	background-color: rgb(86 163 166);
+	color: rgb(218 226 223);
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px; 
+
+}  
+
+#introduction p {
+	margin-bottom: 60px; 
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
